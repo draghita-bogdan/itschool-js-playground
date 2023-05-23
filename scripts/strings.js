@@ -26,15 +26,15 @@ function reverseString(str) {
 reverseString('bye');
 
 
-
 // 4. Creează un obiect care reprezintă o persoană, având proprietăți precum nume, vârstă și hobburi (reprezentate printr-un array de șiruri de caractere). Apoi, afișează un mesaj în consolă care să conțină informații despre persoană, folosind proprietățile obiectului.
 
 var person = {
-    name: "Draghita",
-    age: 25,
-    hobbies: ["music", "shopping"]
-  };
-console.log(person);
+  name: "Draghita",
+  age: 25,
+  hobbies: ["music", "shopping"]
+};
+var message1 = `Numele meu este ${person.name}, am ${person.age} de ani și următoarele hobby uri: ${person.hobbies}.`;
+console.log(message1);
 
 
 // 5. Scrie un program care primește un șir de cuvinte separate prin spații de la utilizator. Folosind un loop, afișează fiecare cuvânt în consolă, împreună cu numărul de caractere pe care îl conține.
